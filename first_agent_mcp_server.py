@@ -46,7 +46,7 @@ def create_file(filename: str) -> str:
    
 print("Initializing ADK load_web_page tool...")
 #adk_tool_to_expose = FunctionTool(load_web_page)
-adk_tool_to_expose = FunctionTool(func=create_file)
+adk_tool_to_expose = FunctionTool(create_file)
 print(f"ADK tool '{adk_tool_to_expose.name}' initialized and ready to be exposed via MCP.")
 # --- End ADK Tool Prep ---
 
