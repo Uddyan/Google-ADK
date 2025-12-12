@@ -2,3 +2,7 @@ google-adk
 litellm
 streamlit
 google.genai
+langchain_community
+langchain_chroma
+beautifulsoup4
+langchain_openai
